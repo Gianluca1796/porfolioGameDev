@@ -47,6 +47,27 @@ p {
     color: #EEF5DB;
 }
 
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #fed;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+
+
 .main-header {
     position: fixed;
     top: 0;
@@ -101,7 +122,8 @@ p {
     margin: 0 auto;
     padding-top: 7rem;
 }
-.aboutMeContainer{
+
+.aboutMeContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,9 +214,11 @@ p {
     height: 250px;
     box-shadow: 7px 8px 5px 0px rgba(39, 39, 39, 0.44);
 }
-#works{
+
+#works {
     padding-top: 7rem;
 }
+
 .work:hover>.worksContent {
     opacity: 1;
 }
@@ -233,7 +257,8 @@ p {
     color: black;
     background-color: transparent;
 }
-.socialMediaContainer{
+
+.socialMediaContainer {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -294,5 +319,34 @@ p {
     /* Reset for the last half to pause */
     100% {
         transform: rotate(0.0deg)
+    }
+}
+#spinner {
+    position: fixed;
+    inset: 0;
+    background-color: #082654;
+    color: #EEF5DB;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+#spinner ion-icon {
+    pointer-events: none;
+    animation: spin 1s ease-in-out both infinite;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
