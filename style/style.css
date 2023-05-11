@@ -99,7 +99,9 @@ p {
 .aboutMe {
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 7rem;
 }
+
 
 .sectionTitle {
     font-size: 2.5rem;
@@ -185,7 +187,9 @@ p {
     height: 250px;
     box-shadow: 7px 8px 5px 0px rgba(39, 39, 39, 0.44);
 }
-
+#works{
+    padding-top: 7rem;
+}
 .work:hover>.worksContent {
     opacity: 1;
 }
