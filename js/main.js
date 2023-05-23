@@ -18,32 +18,38 @@ document.onreadystatechange = function() {
 const worksContainer = document.querySelector(".worksContainer")
 
 const works = [
-    (imAlone = {
+    imAlone = {
         name: "Im Alone - PC Game",
         img: "./assets/images/imAlone.png",
         url: "https://gianlucafava.itch.io/im-alone-en",
-    }),
-    (theBag = {
+    },
+    theBag = {
         name: "The Bag - PC Game",
         img: "./assets/images/thebag.png",
         url: "https://gianlucafava.itch.io/the-bag-short-horror-game",
         backgroundImage: "../assets/images/thebag.png"
-    }),
-    (wingmanApex = {
+    },
+    wingmanApex = {
         name: "Model 3D - Wingman Apex",
         img: "./assets/images/Wingman_Logo.png",
         url: "https://www.artstation.com/artwork/5v8ZdJ",
-    }),
-    (greekHelmet = {
+    },
+    greekHelmet = {
         name: "Model 3D - Greek Helmet",
         img: "./assets/images/tbrender_003.png",
         url: "https://www.artstation.com/artwork/8bemem",
-    }),
-    (orcPBR = {
+    },
+    orcPBR = {
         name: "PBR Orc Textured",
         img: "./assets/images/Orco_lat2.jpg",
         url: "https://www.artstation.com/artwork/9ENPzQ",
-    }),
+    },
+    houseDemo = {
+        name: "House Demo - Ambient & Lighting",
+        img: "./assets/images/houseDemo.png",
+        url: "https://gianlucafava.itch.io/demo-environment-ambientation-lightning",
+    }
+    
 ];
 
 works.forEach((work) => {
