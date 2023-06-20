@@ -48,6 +48,11 @@ const works = [
         name: "House Demo - Ambient & Lighting",
         img: "./assets/images/houseDemo.png",
         url: "https://gianlucafava.itch.io/demo-environment-ambientation-lightning",
+    },
+    hospitalDemo = {
+        name: "Hospital Demo Cinematic - Ambient & Lighting",
+        img:"./assets/images/hospitalDemo.png",
+        url:"https://gianlucafava.itch.io/demo-short-cinematic-of-a-abandoned-hospital"
     }
     
 ];

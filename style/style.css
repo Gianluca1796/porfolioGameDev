@@ -31,6 +31,7 @@ p {
 
 
 
+
 .main-header {
     position: fixed;
     top: 0;
@@ -245,7 +246,12 @@ p {
     animation: spin 1s ease-in-out both infinite;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
-
+.worksContainer{
+    margin-bottom: 50px;
+}
+#contact{
+    padding-top: 200px;
+}
 @keyframes spin {
     0% {
         transform: rotate(0);
@@ -257,3 +263,4 @@ p {
         transform: rotate(360deg);
     }
 }
+
