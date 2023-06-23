@@ -53,7 +53,12 @@ const works = [
         name: "Hospital Demo Cinematic - Ambient & Lighting",
         img:"./assets/images/hospitalDemo.png",
         url:"https://gianlucafava.itch.io/demo-short-cinematic-of-a-abandoned-hospital"
-    }
+    },
+    zBrushModel = {
+        name: "Undead head - Digital sculpture",
+        img:"./assets/images/undeadHead.png",
+        url:"https://www.artstation.com/artwork/Evz2lv"
+    },
     
 ];
 
