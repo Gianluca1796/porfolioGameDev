@@ -44,6 +44,11 @@ const works = [
         img: "./assets/images/Orco_lat2.jpg",
         url: "https://www.artstation.com/artwork/9ENPzQ",
     },
+    zBrushModel = {
+        name: "Undead head - Digital sculpture",
+        img:"./assets/images/undeadHead.jpg",
+        url:"https://www.artstation.com/artwork/Evz2lv"
+    },
     houseDemo = {
         name: "House Demo - Ambient & Lighting",
         img: "./assets/images/houseDemo.png",
@@ -53,13 +58,7 @@ const works = [
         name: "Hospital Demo Cinematic - Ambient & Lighting",
         img:"./assets/images/hospitalDemo.png",
         url:"https://gianlucafava.itch.io/demo-short-cinematic-of-a-abandoned-hospital"
-    },
-    zBrushModel = {
-        name: "Undead head - Digital sculpture",
-        img:"./assets/images/undeadHead.png",
-        url:"https://www.artstation.com/artwork/Evz2lv"
-    },
-    
+    }
 ];
 
 works.forEach((work) => {
