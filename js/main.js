@@ -35,7 +35,7 @@ const works = [
         name: "PBR Orc Textured",
         img: "./assets/images/Orco_lat2.jpg",
         url: "https://www.artstation.com/artwork/9ENPzQ",
-        category: ""
+        category: "Model"
     },
     zBrushModel = {
         name: "Undead head - Digital sculpture",
@@ -66,12 +66,18 @@ const works = [
         img: "./assets/images/DesertOutdoor_Sequence.png",
         url: "https://www.youtube.com/watch?v=1RoMmqVdmGQ",
         category: "Environments"
-    }
+    },
+    castleEnvironment = {
+        name: "Castle Cinematic - Level design",
+        img: "./assets/images/Lamp.png",
+        url: "https://www.youtube.com/watch?v=6nT-4WDjgsU",
+        category: "Environments"
+    },
 ];
 function showWorks (works){
     worksContainer.innerHTML = ""
     works.forEach((work) => {
-        const div = document.createElement("div");
+        const div = document.createElement("div");  
         div.classList.add("work");
         div.style.backgroundImage = `url(${work.img})`
         div.innerHTML = `
@@ -124,4 +130,4 @@ function filtrarDatos() {
 
     showWorks(resultados)
 }
-
+showWorks(works)
