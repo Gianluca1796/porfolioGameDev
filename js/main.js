@@ -56,21 +56,27 @@ const works = [
         category: "UnityDemo"
     },
     ruralEnvironment = {
-        name: "Abandoned Road Cinematic - Level design",
+        name: "Abandoned Road Cinematic - Ambient & Lighting design",
         img: "./assets/images/RuralSequence.png",
         url: "https://www.youtube.com/watch?v=ra-Ka23Njkg",
         category: "Environments"
     },
     desetEnvironment = {
-        name: "Ancient Temple Cinematic - Level design",
+        name: "Ancient Temple Cinematic - Ambient & Lighting design",
         img: "./assets/images/DesertOutdoor_Sequence.png",
         url: "https://www.youtube.com/watch?v=1RoMmqVdmGQ",
         category: "Environments"
     },
     castleEnvironment = {
-        name: "Castle Cinematic - Level design",
+        name: "Castle Cinematic - Ambient & Lighting design",
         img: "./assets/images/Lamp.png",
         url: "https://www.youtube.com/watch?v=6nT-4WDjgsU",
+        category: "Environments"
+    },
+    castleEnvironment = {
+        name: "Mansion - Ambient & Lighting design",
+        img: "./assets/images/Mansion.png",
+        url: "https://www.artstation.com/artwork/9EXlGN",
         category: "Environments"
     },
 ];
