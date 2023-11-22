@@ -56,35 +56,41 @@ const works = [
         category: "UnityDemo"
     },
     ruralEnvironment = {
-        name: "Abandoned Road Cinematic - Ambient & Lighting design",
+        name: "Abandoned Road Cinematic - Ambient & Lighting",
         img: "./assets/images/RuralSequence.png",
         url: "https://www.youtube.com/watch?v=ra-Ka23Njkg",
         category: "Environments"
     },
     desetEnvironment = {
-        name: "Ancient Temple Cinematic - Ambient & Lighting design",
+        name: "Ancient Temple Cinematic - Ambient & Lighting",
         img: "./assets/images/DesertOutdoor_Sequence.png",
         url: "https://www.youtube.com/watch?v=1RoMmqVdmGQ",
         category: "Environments"
     },
     castleEnvironment = {
-        name: "Castle Cinematic - Ambient & Lighting design",
+        name: "Castle Cinematic - Ambient & Lighting",
         img: "./assets/images/Lamp.png",
         url: "https://www.youtube.com/watch?v=6nT-4WDjgsU",
         category: "Environments"
     },
     castleEnvironment = {
-        name: "Mansion - Ambient & Lighting design",
+        name: "Mansion - Ambient & Lighting",
         img: "./assets/images/Mansion.png",
         url: "https://www.artstation.com/artwork/9EXlGN",
         category: "Environments"
     },
     bunkerEnvironment = {
-        name: "Bunker - Environment Art & Lighting design",
+        name: "Bunker - Environment Art & Lighting",
         img: "./assets/images/Bunker.png",
         url: "https://www.youtube.com/watch?v=Q7B6KuOvssQ",
         category: "Environments"
     },
+    hospitalEnvironment = {
+        name: "Hospital - Environment Art & Lighting",
+        img: "./assets/images/Hospital.png",
+        url: "https://www.youtube.com/watch?v=BLtffC68L-g",
+        category: "Environments"
+    }
 ];
 function showWorks (works){
     worksContainer.innerHTML = ""
