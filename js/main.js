@@ -90,6 +90,12 @@ const works = [
         img: "./assets/images/Hospital.png",
         url: "https://www.youtube.com/watch?v=BLtffC68L-g",
         category: "Environments"
+    },
+    clasroomEnvironment = {
+        name: "Classroom - Environment Art & Lighting",
+        img: "./assets/images/Classroom.png",
+        url: "https://www.artstation.com/artwork/04VW4w",
+        category: "Environments"
     }
 ];
 function showWorks (works){
