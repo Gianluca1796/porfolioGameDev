@@ -96,6 +96,12 @@ const works = [
         img: "./assets/images/Classroom.png",
         url: "https://www.artstation.com/artwork/04VW4w",
         category: "Environments"
+    },
+    clasroomEnvironment = {
+        name: "Research Room - Environment Art & Lighting",
+        img: "./assets/images/MindPlace.png",
+        url: "https://www.artstation.com/artwork/39neJB",
+        category: "Environments"
     }
 ];
 function showWorks (works){
