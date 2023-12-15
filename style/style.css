@@ -10,7 +10,8 @@
 :root {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -24,8 +25,105 @@ body {
 
 }
 
+.joystick {
+    transform: rotate(45deg);
+    position:absolute;
+    right: -20px;
+    opacity: .1;
+    width: 500px;
+}
+.pc{
+    position:absolute;
+    left: 0;
+    opacity: .1;
+    width: 500px;
+}
+.cube{
+    position:absolute;
+    right: 0;
+    opacity: .1;
+    width: 500px;
+}
+.chat{
+    position:absolute;
+    opacity: .1;
+    width: 500px;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.background span {
+    width: 23vmin;
+    height: 23vmin;
+    border-radius: 23vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 25;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: .4;
+    transition: color .5s ease-in-out;
+}
+
+
+.background span:nth-child(1) {
+    color: #F42C04;
+    top: 55%;
+    left: 71%;
+    animation-duration: 15s;
+    animation-delay: -104s;
+    transform-origin: -6vw 0vh;
+    box-shadow: 46vmin 0 6.553767063457595vmin currentColor;
+}
+
+.background span:nth-child(2) {
+    color: #F42C04;
+    top: 40%;
+    left: 60%;
+    animation-duration: 129s;
+    animation-delay: -65s;
+    transform-origin: 10vw 9vh;
+    box-shadow: -46vmin 0 6.629394758445209vmin currentColor;
+}
+
+.background span:nth-child(3) {
+    color: #F42C04;
+    top: 20%;
+    left: 24%;
+    animation-duration: 216s;
+    animation-delay: -196s;
+    transform-origin: 17vw -4vh;
+    box-shadow: 46vmin 0 5.821412166010351vmin currentColor;
+}
+
+.background span:nth-child(4) {
+    color: #F42C04;
+    top: 76%;
+    left: 49%;
+    animation-duration: 17s;
+    animation-delay: -224s;
+    transform-origin: -4vw -20vh;
+    box-shadow: -46vmin 0 6.640837264525276vmin currentColor;
+}
+
+
+
+
+
+
+
+
+
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -108,6 +206,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .titleProfession {
@@ -144,15 +243,16 @@ p {
     margin-right: 2rem;
 }
 
-.paragraphAboutMe{
-    color:#2c2c2c
+.paragraphAboutMe {
+    color: #2c2c2c
 }
-.importantWord{
+
+.importantWord {
     color: #F42C04;
 }
 
 .aboutContainer {
- padding: 0;  
+    padding: 0;
 }
 
 .aboutContent {
@@ -182,23 +282,24 @@ p {
 
 .aboutContainer .skillsList {
     margin-top: 2rem;
-    
+
 }
 
 .skill {
-    background-color:#F42C04;
+    background-color: #F42C04;
     padding: .5rem .75rem;
     border-radius: .25rem;
     border: 1px solid #EEF5DB;
     transition: .2s;
     color: #EEF5DB;
 }
-.skills-titles{
+
+.skills-titles {
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 120px;    
+    width: 120px;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -207,12 +308,13 @@ p {
     transition: color .2s ease-in-out;
 
 }
+
 .skills-titles div span:hover {
     color: rgb(255, 191, 0);
 }
 
 
-.centerAbout h2 .underline{
+.centerAbout h2 .underline {
     width: 3px;
     height: 2px;
     background-color: #F42C04;
@@ -229,19 +331,24 @@ p {
 
 
 
-.buttonContainer{
+.buttonContainer {
     display: flex;
-    gap:2rem
+    gap: 2rem;
+
 }
-.btnFilter{
-    background-color:#F42C04;
+
+.btnFilter {
+    background-color: #F42C04;
     border-radius: 10px;
     padding: 1rem;
     border: none;
     color: #F0F3F5;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición suave */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    z-index: 9999;
+    /* Transición suave */
 }
-.btnFilter:hover{
+
+.btnFilter:hover {
     background-color: rgb(255, 191, 0);
     color: #2c2c2c;
     cursor: inherit;
@@ -296,13 +403,15 @@ p {
     height: 100%;
     padding: 1rem;
 }
-.btnVisit{
-        background-color:#F42C04;
-        border-radius: 10px;
-        padding: .8rem;
-        border: none;
-        color: #F0F3F5;
+
+.btnVisit {
+    background-color: #F42C04;
+    border-radius: 10px;
+    padding: .8rem;
+    border: none;
+    color: #F0F3F5;
 }
+
 .text {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -325,7 +434,7 @@ p {
 
 .title {
     text-align: center;
-    
+
 }
 
 .socialMediaContainer {
@@ -334,16 +443,19 @@ p {
     gap: 2rem;
 }
 
-.icono{
+.icono {
     font-size: 3rem;
     color: #F42C04;
 }
-.contactTitle{
+
+.contactTitle {
     width: 100%;
 }
-.seeMore{
+
+.seeMore {
     display: none;
 }
+
 #spinner {
     position: fixed;
     inset: 0;
@@ -362,6 +474,11 @@ p {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
 
 
 @keyframes spin {
@@ -391,20 +508,23 @@ p {
         /* Escala máxima del texto (mientras parpadea) */
     }
 }
+
 @keyframes line {
     0% {
         width: 0;
         transform: translateX(0);
     }
-    50%{
+
+    50% {
         width: 40px;
         transform: translateX(50px);
     }
+
     100% {
         width: 0;
         transform: translateX(120px);
     }
-  }
+}
 
 
 
