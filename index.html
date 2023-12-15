@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style/style.css" />
     <link href="./assets/images/favicon.ico" rel="icon" type="image/x-icon" />
@@ -16,72 +16,91 @@
 </head>
 
 <body>
-
     <div id="spinner" aria-hidden="true">
         <ion-icon name="game-controller-outline"></ion-icon>
     </div>
     <header class="main-header" aria-label="Encabezado">
 
         <nav class="main-nav navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                </button>
+                <div class="collapse navbar-collapse container" id="navbarTogglerDemo01">
+                    <!-- <h4 class="logo">GF <br> Environment Art</h4> -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar">
                         <li class="nav-item">
-                            <a class="nav-link active link" aria-current="page" href="#itsMe">It´s Me!</a>
+                            <a class="nav-link active link" aria-current="page" href="#itsMe" data-bs-toggle="tooltip" data-bs-title="Like Mario!" data-bs-placement="bottom">It´s Me!</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active link" aria-current="page" href="#aboutMe">About Me</a>
+                            <a class="nav-link active link" aria-current="page" href="#aboutMe" data-bs-toggle="tooltip" data-bs-title="Know Me!" data-bs-placement="bottom">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active link" aria-current="page" href="#skills">Skills</a>
+                            <a class="nav-link active link" aria-current="page" href="#skills" data-bs-toggle="tooltip" data-bs-title="Stack" data-bs-placement="bottom">Softwares</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active link" aria-current="page" href="#works">Works</a>
+                            <a class="nav-link active link" aria-current="page" href="#works" data-bs-toggle="tooltip" data-bs-title="Check them out!" data-bs-placement="bottom">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active link" aria-current="page" href="#contact">Contact</a>
+                            <a class="nav-link active link" aria-current="page" href="#contact" data-bs-toggle="tooltip" data-bs-title="Let's talk!" data-bs-placement="bottom">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <div id="itsMe" class="content">
-            <p class="generalTitle">It's me! Gianluca!</p>
-            <h1 class="titleProfession">I'm passionate about video games.</h1>
-            <p class="titleDescription">
-                I am a person who likes to program and design levels, environments, and working in 3D design. I'm
-                grateful to the world of IT for providing me with the opportunity to make a living by pursuing my
-                passion. You'll find in me traits such as motivation, camaraderie, and a strong belief in the necessity
-                of constant self-improvement. Soft skills, including time management, communication, adaptability,
-                problem-solving, and teamwork, hold great importance to me. Wishing you all the best!
-            </p>
+            <div>
+                <h2>It's me</h2>
+            </div>
+            <div>
+                <h1 class="titleProfession">Gianluca!</h1>
+            </div>
+            <p class="generalTitle">3D environment artist</p>
+            <!-- <p class="titleDescription">
+            I am a person who likes to program and design levels, environments, and working in 3D design. I'm
+            grateful to the world of IT for providing me with the opportunity to make a living by pursuing my
+            passion. You'll find in me traits such as motivation, camaraderie, and a strong belief in the necessity
+            of constant self-improvement. Soft skills, including time management, communication, adaptability,
+            problem-solving, and teamwork, hold great importance to me. Wishing you all the best!
+        </p> -->
         </div>
-        <div class="aboutMeContainer" id="aboutMe">
+        <div class="content" id="aboutMe">
             <div class="aboutMe">
                 <div>
-                    <h2 class="sectionTitle">About Me <span><i class="nes-icon is-large like"></i></span></h2>
+                    <h2 class="sectionTitle">
+                        <span>A</span>
+                        <span>B</span>
+                        <span>O</span>
+                        <span>U</span>
+                        <span class=" tt">T</span>
+                        <span>M</span>
+                        <span>E</span></h2>
                     <p class="paragraphAboutMe">
-                        I am 27 years old and I live in Rosario, Santa Fe, Argentina. Since
-                        I was a child I liked video games, not only as a means of
-                        entertainment but as stories to tell and immerse yourself in them.
-                        Over time I was learning in a self-taught way until I got to study
-                        game development to work as a professional in the IT world. I invite
-                        you to explore this space and get to know me more!
+                        I am 27 years old and I live in Rosario, Santa Fe, Argentina. Ever since I was a child, I've
+                        been captivated by the immersive worlds created within video games. They are not just a source
+                        of entertainment for me, but a canvas for storytelling and artistic expression. My passion for
+                        crafting breathtaking <strong class="importantWord">environments</strong> led me to pursue a
+                        career as an <strong class="importantWord">environment artist.</strong>
+                        Now, I invite you to explore this space where I showcase my creations. Through my work, I aim to
+                        convey <strong class="importantWord">narratives</strong>, evoke emotions, and ignite a sense of
+                        wonder. Join me on this visual journey and discover more about my artistic endeavors as an
+                        environment artist!
                     </p>
                 </div>
             </div>
         </div>
-        <div class="aboutContainer" id="skills">
+        <div class="aboutContainer content" id="skills">
             <div class="aboutContent">
                 <div class="centerAbout">
                     <h2 class="skills-titles">
-                        <span><i class="nes-icon coin tail heads is-medium"></i></span> Skills & Softwares <span><i
-                                class="nes-icon coin is-medium"></i></span>
+                        <div>
+                            <span>S</span><span>T</span><span>A</span><span>C</span><span>K</span>
+                        </div>
+                        <span class="underline"></span>
                     </h2>
                 </div>
                 <div>
@@ -100,42 +119,57 @@
                 </div>
             </div>
         </div>
-        <div class="aboutContainer" id="works">
+        <div class="content" id="works">
             <div class="titleWork">
                 <div class="centerAbout">
-                    <h2 class="sectionTitle"><span><i class="nes-icon is-medium star"></i></span>Work<span><i
-                                class="nes-icon is-medium star"></i></span>
+                    <h2 class="sectionTitle skills-titles">
+                        <div>
+                            <span>W</span><span>O</span><span>R</span><span>K</span>
+                        </div>
+                        <span class="underline"></span>
                     </h2>
                 </div>
-
                 <p>Here are some of my works</p>
-                <button class="btnFilter nes-btn is-warning" id="Model"> 3D Models</button>
-                <button class="btnFilter nes-btn is-warning" id="Environments">Unreal environments</button>
-                <button class="btnFilter nes-btn is-warning" id="UnityDemo">Unity downloadable demos</button>
+                <p> - PICK ONE - </p>
+                <div class="buttonContainer">
+                    <button class="btnFilter" id="Model"> 3D Models</button>
+                    <button class="btnFilter" id="Environments">Unreal environments</button>
+                    <button class="btnFilter" id="UnityDemo">Unity downloadable demos</button>
+
+                </div>
             </div>
             <div class="worksContainer"></div>
-        </div>
-    </main>
-    <footer id="contact">
-        <div class="nes-container with-title is-centered">
-            <p class="title">Let's Talk!</p>
-            <div class="socialMediaContainer">
-                <a target="_blank" href="https://github.com/Gianluca1796/"><i class="nes-icon github is-large"></i></a>
-                <a target="_blank" href="https://www.artstation.com/gianlucafava"><i class="nes-icon is-large"><img class="imgArt" src="./assets/images/artstation.png" alt=""></i></a>
-                <a target="_blank" href="mailto:gianlucafava.17@gmail.com"><i class="nes-icon gmail is-large"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/gianlucafava/"><i
-                        class="nes-icon linkedin is-large"></i></a>
-                <a target="_blank" href="https://wa.me/+5493464556285"><i class="nes-icon whatsapp is-large"></i></a>
+            <div class="seeMore">
+                <p>Do you want to see more? Check my artstation profile <span> <a target="_blank" href="https://www.artstation.com/gianlucafava">Here</a></span></p>
+               
             </div>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
-    </script>
+    </main>
+
+    <footer id="contact" class="content">
+        <div class="centerAbout">
+            <h2 class="sectionTitle skills-titles contactTitle">
+                <div>
+                    <p class="title">Let's Talk!</p>
+                </div>
+                <span class="underline"></span>
+            </h2>
+        </div>
+            <div class="socialMediaContainer">
+                <a target="_blank" href="https://github.com/Gianluca1796/"><ion-icon class="icono"  name="logo-github"></ion-icon></a>
+                <a target="_blank" href="mailto:gianlucafava.17@gmail.com"><ion-icon  class="icono" name="mail-outline"></ion-icon></a>
+                <a target="_blank" href="https://www.linkedin.com/in/gianlucafava/"><ion-icon class="icono"  name="logo-linkedin"></ion-icon></a>
+                <a target="_blank" href="https://wa.me/+5493464556285"><ion-icon  class="icono" name="logo-whatsapp"></ion-icon></a>
+            </div>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
-    <script src="./js/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

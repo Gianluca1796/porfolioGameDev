@@ -1,4 +1,5 @@
-
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";
@@ -105,6 +106,7 @@ const works = [
     }
 ];
 function showWorks (works){
+    const seeMore = document.querySelector(".seeMore")
     worksContainer.innerHTML = ""
     works.forEach((work) => {
         const div = document.createElement("div");  
@@ -117,18 +119,13 @@ function showWorks (works){
                 </span>
                 <div class="buttonsAndIconsWorks">
                     <div class="buttonsWorks">
-                        <a target="_blank" href="${work.url}"><button type="button" class="nes-btn is-success">Visit</button></a>
-                    </div>
-                    <div class="iconsWorks">
-                        <i class="nes-icon is-small star"></i>
-                        <i class="nes-icon is-small star"></i>
-                        <i class="nes-icon is-small star"></i>
+                        <a target="_blank" href="${work.url}"><button type="button" class="btnVisit">Visit</button></a>
                     </div>
                 </div>
             </div>
         `;
         worksContainer.appendChild(div)
-    
+        seeMore.style.display = "block"
         div.addEventListener("mouseover", () => hover(div))
         div.addEventListener("mouseout", () => hoverOut(div, work))
     });
@@ -136,7 +133,7 @@ function showWorks (works){
 
 
 function hover(div) {
-    div.style.backgroundImage = "linear-gradient(90deg,rgba(209,209,209,.8),rgba(242,233,233,.8))"
+    div.style.backgroundImage = "linear-gradient(90deg,rgba(255, 191, 0,.8),rgba(244, 44, 4,.8))"
 }
 
 function hoverOut(div, work) {
@@ -160,4 +157,4 @@ function filtrarDatos() {
 
     showWorks(resultados)
 }
-showWorks(works)
+
