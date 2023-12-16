@@ -14,6 +14,7 @@
 a {
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
 }
 
 body {
@@ -128,7 +129,8 @@ body {
 
 .link {
     text-decoration: none !important;
-    color: #0f0f0f !important
+    color: #0f0f0f !important;
+    font-weight: bold;
 }
 
 .link:hover {
