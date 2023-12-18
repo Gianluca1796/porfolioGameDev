@@ -114,14 +114,6 @@ body {
     box-shadow: -46vmin 0 6.640837264525276vmin currentColor;
 }
 
-
-
-
-
-
-
-
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -149,6 +141,10 @@ h2 {
     text-transform: uppercase;
     font-weight: bold;
 
+}
+.worksExplanation{
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 h1,
