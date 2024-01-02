@@ -98,12 +98,19 @@ const works = [
         url: "https://www.artstation.com/artwork/04VW4w",
         category: "Environments"
     },
-    clasroomEnvironment = {
+    researchRoom = {
         name: "Research Room - Environment Art & Lighting",
         img: "./assets/images/MindPlace.png",
         url: "https://www.artstation.com/artwork/39neJB",
         category: "Environments"
-    }
+    },
+    lostCastle = {
+        name: "Lost Monastery - Environment Art & Lighting",
+        img: "./assets/images/monastery.png",
+        url: "https://www.artstation.com/artwork/aomLqk",
+        category: "Environments"
+    },
+
 ];
 function showWorks (works){
     const seeMore = document.querySelector(".seeMore")
