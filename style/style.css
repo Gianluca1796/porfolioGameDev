@@ -379,7 +379,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 7px 8px 5px 0px rgba(39, 39, 39, 0.44);
-
+    justify-content: center;
 }
 
 #works {

@@ -110,6 +110,18 @@ const works = [
         url: "https://www.artstation.com/artwork/aomLqk",
         category: "Environments"
     },
+    imAlone = {
+        name: "Im Alone? - Pc short game",
+        img: "./assets/images/imAlone.png",
+        url: "https://gianlucafava.itch.io/im-alone-en",
+        category: "Games"
+    },
+    theBag = {
+        name: "The Bag - Short game inspired by a short horror film",
+        img: "./assets/images/thebag.png",
+        url: "https://gianlucafava.itch.io/the-bag-short-horror-game",
+        category: "Games"
+    },
 
 ];
 function showWorks (works){
