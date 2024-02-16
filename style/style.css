@@ -318,7 +318,7 @@ p {
     box-shadow: 0px 0px 10px #F42C04;
     position: absolute;
     bottom: -5px;
-    animation: line 3s linear infinite;
+    animation: line 3s   infinite;
 }
 
 
