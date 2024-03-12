@@ -20,16 +20,28 @@ document.onreadystatechange = function () {
 const worksContainer = document.querySelector(".worksContainer")
 
 const works = [
-    wingmanApex = {
-        name: "Model 3D - Wingman Apex",
-        img: "./assets/images/Wingman_Logo.png",
-        url: "https://www.artstation.com/artwork/5v8ZdJ",
-        category: "Model"
-    },
+    // wingmanApex = {
+    //     name: "Model 3D - Wingman Apex",
+    //     img: "./assets/images/Wingman_Logo.png",
+    //     url: "https://www.artstation.com/artwork/5v8ZdJ",
+    //     category: "Model"
+    // },
     greekHelmet = {
         name: "Model 3D - Greek Helmet",
         img: "./assets/images/tbrender_003.png",
         url: "https://www.artstation.com/artwork/8bemem",
+        category: "Model"
+    },
+    lockers = {
+        name: "Model 3D - Lockers",
+        img: "./assets/images/LockerRender.jpg",
+        url: "https://www.artstation.com/artwork/blnX5k",
+        category: "Model"
+    },
+    vault = {
+        name: "Model 3D - Vault",
+        img: "./assets/images/Vault.jpg",
+        url: "https://www.artstation.com/artwork/04mY4e",
         category: "Model"
     },
     orcPBR = {
