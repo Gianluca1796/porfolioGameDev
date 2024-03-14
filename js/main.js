@@ -44,6 +44,12 @@ const works = [
         url: "https://www.artstation.com/artwork/04mY4e",
         category: "Model"
     },
+    mailBox = {
+        name: "Model 3D - U.S. Mail Box",
+        img: "./assets/images/MailBox.png",
+        url: "https://www.artstation.com/artwork/YB09L3",
+        category: "Model"
+    },
     orcPBR = {
         name: "PBR Orc Textured",
         img: "./assets/images/Orco_lat2.jpg",
