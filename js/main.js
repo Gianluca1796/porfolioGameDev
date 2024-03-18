@@ -62,6 +62,12 @@ const works = [
         url: "https://www.artstation.com/artwork/Evz2lv",
         category: "Model"
     },
+    NYPDBarrier = {
+        name: "NYPD - Barrier",
+        img: "./assets/images/NYPD.png",
+        url: "https://www.artstation.com/artwork/9Edemy",
+        category: "Model"
+    },
     houseDemo = {
         name: "House Demo - Ambient & Lighting",
         img: "./assets/images/houseDemo.png",
