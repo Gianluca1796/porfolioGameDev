@@ -364,6 +364,7 @@ p {
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 50px;
+    max-width: 80%;
 }
 
 .titleWork {

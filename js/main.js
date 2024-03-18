@@ -26,12 +26,12 @@ const works = [
     //     url: "https://www.artstation.com/artwork/5v8ZdJ",
     //     category: "Model"
     // },
-    greekHelmet = {
-        name: "Model 3D - Greek Helmet",
-        img: "./assets/images/tbrender_003.png",
-        url: "https://www.artstation.com/artwork/8bemem",
-        category: "Model"
-    },
+    // greekHelmet = {
+    //     name: "Model 3D - Greek Helmet",
+    //     img: "./assets/images/tbrender_003.png",
+    //     url: "https://www.artstation.com/artwork/8bemem",
+    //     category: "Model"
+    // },
     lockers = {
         name: "Model 3D - Lockers",
         img: "./assets/images/LockerRender.jpg",
@@ -56,12 +56,12 @@ const works = [
         url: "https://www.artstation.com/artwork/9ENPzQ",
         category: "Model"
     },
-    zBrushModel = {
-        name: "Undead head - Digital sculpture",
-        img: "./assets/images/undeadHead.jpg",
-        url: "https://www.artstation.com/artwork/Evz2lv",
-        category: "Model"
-    },
+    // zBrushModel = {
+    //     name: "Undead head - Digital sculpture",
+    //     img: "./assets/images/undeadHead.jpg",
+    //     url: "https://www.artstation.com/artwork/Evz2lv",
+    //     category: "Model"
+    // },
     NYPDBarrier = {
         name: "NYPD - Barrier",
         img: "./assets/images/NYPD.png",
