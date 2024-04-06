@@ -68,6 +68,12 @@ const works = [
         url: "https://www.artstation.com/artwork/9Edemy",
         category: "Model"
     },
+    PowerCell = {
+        name: "Sci - Fi Power cell",
+        img: "./assets/images/PowerCell.png",
+        url: "https://www.artstation.com/artwork/DveVz0",
+        category: "Model"
+    },
     houseDemo = {
         name: "House Demo - Ambient & Lighting",
         img: "./assets/images/houseDemo.png",
