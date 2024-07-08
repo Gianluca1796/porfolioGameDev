@@ -140,18 +140,36 @@ const works = [
         url: "https://www.artstation.com/artwork/aomLqk",
         category: "Environments"
     },
-    imAlone = {
-        name: "Im Alone? - Pc short game",
-        img: "./assets/images/imAlone.png",
-        url: "https://gianlucafava.itch.io/im-alone-en",
-        category: "Games"
+    lostCastle = {
+        name: "Mud with puddles",
+        img: "./assets/images/suelo.png",
+        url: "https://www.artstation.com/artwork/1xKJ9Z",
+        category: "Materials"
     },
-    theBag = {
-        name: "The Bag - Short game inspired by a short horror film",
-        img: "./assets/images/thebag.png",
-        url: "https://gianlucafava.itch.io/the-bag-short-horror-game",
-        category: "Games"
+    lostCastle = {
+        name: "Ruined Tile Floor",
+        img: "./assets/images/ceramico.png",
+        url: "https://www.artstation.com/artwork/RybWaE",
+        category: "Materials"
     },
+    lostCastle = {
+        name: "Medieval Fabric",
+        img: "./assets/images/tela.png",
+        url: "https://www.artstation.com/artwork/29DYdy",
+        category: "Materials"
+    },
+    // imAlone = {
+    //     name: "Im Alone? - Pc short game",
+    //     img: "./assets/images/imAlone.png",
+    //     url: "https://gianlucafava.itch.io/im-alone-en",
+    //     category: "Games"
+    // },
+    // theBag = {
+    //     name: "The Bag - Short game inspired by a short horror film",
+    //     img: "./assets/images/thebag.png",
+    //     url: "https://gianlucafava.itch.io/the-bag-short-horror-game",
+    //     category: "Games"
+    // },
 
 ];
 function showWorks (works){
