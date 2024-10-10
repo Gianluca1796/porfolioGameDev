@@ -141,9 +141,9 @@ const works = [
         category: "Environments"
     },
     lostCastle = {
-        name: "Mud with puddles",
-        img: "./assets/images/suelo.png",
-        url: "https://www.artstation.com/artwork/1xKJ9Z",
+        name: "Tiles roof",
+        img: "./assets/images/tiles.jpg",
+        url: "https://www.artstation.com/artwork/rJbwE2",
         category: "Materials"
     },
     lostCastle = {
@@ -156,6 +156,12 @@ const works = [
         name: "Medieval Fabric",
         img: "./assets/images/tela.png",
         url: "https://www.artstation.com/artwork/29DYdy",
+        category: "Materials"
+    },
+    lostCastle = {
+        name: "Medieval Fabric",
+        img: "./assets/images/woodebFloor.jpg",
+        url: "https://www.artstation.com/artwork/vDNXqY",
         category: "Materials"
     },
     // imAlone = {
